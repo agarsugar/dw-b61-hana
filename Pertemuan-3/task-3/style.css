@@ -1,0 +1,146 @@
+body {
+    font-family: 'Montserrat', sans-serif;
+    background-color: rgb(227, 227, 227);
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    width: 100%;
+}
+
+
+.logo{
+    font-size: 24px;
+    color: #cb3535;
+    margin-left: 50px;
+}
+
+.container-nav{
+    gap: 30px;
+    height: 35px;
+}
+
+.nav-link{
+    gap: 20px;
+}
+
+.nav-link a{
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.btn-contact-me{
+    font-size: 14px;
+    font-weight: 500;
+    margin-right: 50px;
+    padding: 4px 15px;
+}
+
+.title-content{
+    text-align: center;
+    margin-top: 80px;
+    font-size: 30px;
+    font-weight: 800;
+}
+
+.name-input{
+    display: block;
+    margin: 10px auto;
+    margin-top: 50px;
+    padding: auto 10px;
+    width: 500px;
+}
+
+.name-input  label{
+    font-weight: 500;
+    font-size: 20px;
+}
+
+.name-input input{
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+    height: 45px;
+}
+
+.email-input{
+    display: block;
+    margin: 25px auto;
+    padding: auto 10px;
+    width: 500px;
+}
+
+.email-input label{
+    font-weight: 500;
+    font-size: 20px;
+}
+
+.email-input input{
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+    height: 45px;
+}
+
+.phone-input{
+    display: block;
+    margin: 25px auto;
+    padding: auto 10px;
+    width: 500px;
+}
+
+.phone-input label{
+    font-weight: 500;
+    font-size: 20px;
+}
+
+.phone-input input{
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+    height: 45px;
+}
+
+.subject-select {
+    display: block;
+    margin: 25px auto;
+    padding: auto 10px;
+    width: 500px;
+}
+
+.subject-select  label{
+    font-weight: 500;
+    font-size: 20px;
+}
+
+.subject-select select{
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+    height: 45px;
+}
+
+.message-input{
+    display: block;
+    margin: 25px auto;
+    padding: auto 10px;
+    width: 500px;
+}
+
+.message-input label{
+    font-weight: 500;
+    font-size: 20px;
+}
+.message-input textarea{
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+    height: 150px;
+}
+
+.btn-submit{
+   display: flex;
+   justify-content: flex-end;
+   margin-left: auto;
+   margin-right: auto;
+   margin-top: 50px;
+   margin-bottom: 70px;
+   width: 500px;
+}
+
+.btn-submit input{
+    border-radius: 20px;
+    padding-left: 30px;
+    padding-right: 30px;
+    font-weight: 600;
+    font-size: 18px;
+}
